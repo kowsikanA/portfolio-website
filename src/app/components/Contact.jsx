@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <section className="min-h-screen bg-white dark:bg-gray-900">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white py-10">Contact Me</h2>
+        <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white py-10">Contact Me</h2>
         <form onSubmit={handleSubmit} className="space-y-8">
           <div className='flex gap-4' >
 

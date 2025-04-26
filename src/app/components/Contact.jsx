@@ -23,8 +23,14 @@ const Contact = () => {
         }),
     });
     const result = await response.json();
-    if (result.success) {
+    if (result.success) { 
         console.log(result);
+        window.alert("Your message is sent successfully");
+        e.target.reset();
+    }
+    else{
+      window.alert("Something is wrong. Please try again!");
+
     }
 }
 
@@ -55,7 +61,7 @@ const Contact = () => {
                 <span className='absolute inset-y-0 left-0 flex  items-center pl-4'>
                   <FaUser className='text-gray-50  text-sm' />
                 </span>
-                <input type="text" id="lastName" name="lastName" className="pl-12 shadow-sm bg-gray-700 border text-gray-900 text-sm rounded-lg  block w-full p-2.5 " required />
+                <input type="text" id="lastName" name="lastName" className="pl-12 shadow-sm bg-gray-700 border text-white text-sm rounded-lg  block w-full p-2.5 " required />
 
               </div>
 

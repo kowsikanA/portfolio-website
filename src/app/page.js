@@ -34,7 +34,7 @@ export default function Home() {
         <Contact />
       </div>
 
-      <div className="bg-[#1a9ae4]">
+      <div className="bg-[#0e496b]">
         <Footer />
       </div>
     </main>

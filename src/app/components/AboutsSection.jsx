@@ -21,7 +21,7 @@ const AboutsSection = () => {
             />
           </div>
           <div className='flex flex-col sm:flex-row gap-4 mt-4'>
-            <button className='cursor-pointer px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gray-500 hover:bg-gray-400 font-bold text-white' onClick={() => window.open('https://drive.google.com/file/d/1NLS0jlPmOw5AixAywamAq64ao9kBDKJU/view?usp=sharing')} >Resume</button>
+            <button className='cursor-pointer px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gray-500 hover:bg-gray-400 font-bold text-white' onClick={() => window.open('https://drive.google.com/file/d/1lXiYsToUmRzTtt3j1tYvQyEuxl84SQWq/view?usp=sharing')} >Resume</button>
             <button className='cursor-pointer px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-black hover:bg-gray-800 font-bold text-white' onClick={() => window.open('https://github.com/kowsikanA?tab=repositories')}>GitHub</button>
             <button className='cursor-pointer px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-blue-500 hover:bg-blue-700 font-bold text-white ' onClick={() => window.open('https://www.linkedin.com/in/kowsikan-arudchelvan-491695275/')}>Linkedin</button>
           </div>

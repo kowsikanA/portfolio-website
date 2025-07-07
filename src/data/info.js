@@ -24,7 +24,9 @@ export const code_skills =[
       {link: "https://img.icons8.com/?size=100&id=rgPSE6nAB766&format=png&color=000000", alt: "mySQL"},
       {link: "https://img.icons8.com/?size=100&id=38561&format=png&color=000000", alt: "PostgreSQL"},
       {link: "https://img.icons8.com/?size=100&id=39913&format=png&color=000000", alt: "Oracle"},
-      {link: "https://img.icons8.com/?size=100&id=ROMfFZ1tMhpk&format=png&color=000000", alt: "Firebase"}
+      {link: "https://img.icons8.com/?size=100&id=ROMfFZ1tMhpk&format=png&color=000000", alt: "Firebase"},
+      {link: "https://img.icons8.com/?size=100&id=74402&format=png&color=000000", alt: "MongoDB"}
+
 
     ]
   },

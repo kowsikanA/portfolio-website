@@ -35,14 +35,14 @@ const Contact = () => {
 }
 
   return (
-    <section className="min-h-screen bg-white dark:bg-gray-900">
+    <section className="min-h-screen  bg-gray-900">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white py-10">Contact Me</h2>
+        <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-center text-white dark:text-white py-10">Contact Me</h2>
         <form onSubmit={handleSubmit} className="space-y-8 rounded-2xl">
           <div className='flex gap-4' >
 
             <div className='w-1/2'>
-              <label htmlFor="firstName" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
+              <label htmlFor="firstName" className="block mb-2 text-sm font-medium text-white dark:text-gray-300">First Name</label>
 
               <div className="relative">
                 <span className='absolute inset-y-0 left-0 flex  items-center pl-4'>
@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
 
             <div className='w-1/2'>
-              <label htmlFor="lastName" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Last Name</label>
+              <label htmlFor="lastName" className="block mb-2 text-sm font-medium text-white  dark:text-gray-300">Last Name</label>
 
               <div className="relative">
                 <span className='absolute inset-y-0 left-0 flex  items-center pl-4'>
@@ -70,13 +70,13 @@ const Contact = () => {
           </div>
 
           <div className='w-full'>
-            <label htmlFor="subject" className="block mb-2 text-sm font-medium  dark:text-gray-300">Subject</label>
+            <label htmlFor="subject" className="block mb-2 text-sm font-medium  text-white">Subject</label>
 
             <div className="relative">
               <span className='absolute inset-y-0 left-0 flex  items-center pl-4'>
                 <FaBook className='text-gray-50  text-sm' />
               </span>
-              <input type="text" id="subject" name="subject" className="pl-12 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required />
+              <input type="text" id="subject" name="subject" className="pl-12 shadow-sm bg-gray-700  text-white text-sm rounded-lg  block w-full p-2.5" required />
 
             </div>
 
@@ -89,7 +89,7 @@ const Contact = () => {
               <span className='absolute inset-y-0 left-0 flex  items-center pl-4'>
                 <FaEnvelope className='text-gray-50  text-sm' />
               </span>
-              <input type="email" id="email" name="email" className="pl-12 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required />
+              <input type="email" id="email" name="email" className="pl-12 shadow-sm bg-gray-700  text-white text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required />
 
             </div>
 
@@ -97,7 +97,7 @@ const Contact = () => {
 
           <div className="sm:col-span-2">
             <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-            <textarea id="message" name="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+            <textarea id="message" name="message" rows="6" className="block p-2.5 w-full text-sm text-white bg-gray-700 rounded-lg shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
           </div>
           <div className='flex justify-center'>
             <button type="submit" className="cursor-pointer py-3 px-6 text-sm font-medium text-center text-white rounded-lg bg-blue-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 hover:bg-primary-700 focus:ring-primary-800">Send message</button>

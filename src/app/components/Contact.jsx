@@ -38,7 +38,7 @@ const Contact = () => {
     <section className="min-h-screen bg-white dark:bg-gray-900">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white py-10">Contact Me</h2>
-        <form onSubmit={handleSubmit} className="space-y-8">
+        <form onSubmit={handleSubmit} className="space-y-8 rounded-2xl">
           <div className='flex gap-4' >
 
             <div className='w-1/2'>
@@ -61,7 +61,7 @@ const Contact = () => {
                 <span className='absolute inset-y-0 left-0 flex  items-center pl-4'>
                   <FaUser className='text-gray-50  text-sm' />
                 </span>
-                <input type="text" id="lastName" name="lastName" className="pl-12 shadow-sm bg-gray-700 border text-white text-sm rounded-lg  block w-full p-2.5 " required />
+                <input type="text" id="lastName" name="lastName" className="pl-12 shadow-sm bg-gray-700  text-white text-sm rounded-lg  block w-full p-2.5 " required />
 
               </div>
 

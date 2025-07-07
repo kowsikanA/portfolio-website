@@ -1,5 +1,4 @@
 "use client"
-
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import ParticlesComponent from './ui/ParticlesComponent';
@@ -22,7 +21,7 @@ const HeroSection = () => {
               {" "}
             </span> 
             <br />
-            <div className='py-5 text-3xl '>
+            <div className='py-5 text-3xl ' >
               I am an aspiring <TypeAnimation
               sequence={[
                 'Software Developer',

@@ -29,7 +29,7 @@ const AboutsSection = () => {
         <div className="text-left md:pl-10">
 
           <ul className='list-disc list-inside space-y-2 text-lg'>
-            <li>🎓 Third-year Computer Science student at Ontario Tech University</li>
+            <li>🎓 Fourth-year Computer Science student at Ontario Tech University</li>
             <li>💻 Passionate about technology and curious about how things work</li>
             <li>👨‍💻 Enjoys programming, problem-solving, and exploring new software</li>
             <li>📚 Committed to continuous learning and personal growth</li>
